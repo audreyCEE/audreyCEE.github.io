@@ -33,7 +33,7 @@
 
 	(function tick() {
 	  var now = new Date;
-	  countdown.text(formatTime(new Date(+today - d3.time.day(now) + +deadline - d3.time.second(now))));
+	  countdown.text(formatTime(new Date(+deadline - d3.time.second(now))));
 	  setTimeout(tick, 1000 - now % 1000);
 	})();
 
