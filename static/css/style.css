@@ -6,6 +6,6 @@ P.placeholder{
 	color: white;
 }
 
-.img-circle {
+img.img-circle {
     border-radius: 50%;
 }
