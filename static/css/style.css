@@ -5,3 +5,7 @@ P {
 P.placeholder{
 	color: white;
 }
+
+.img-circle {
+    border-radius: 50%;
+}
