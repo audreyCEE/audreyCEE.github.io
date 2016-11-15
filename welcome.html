@@ -23,13 +23,13 @@
 	<div id="countdown"></div>
 	<script>
 
-	var formatTime = d3.time.format("T-%d-%X"),
+	var formatTime = d3.time.format("D-%d-%X"),
 	    countdown = d3.select("#countdown"),
 	    today = d3.time.day(new Date);
 
 	// 9 AM tomorrow
-	var deadline = d3.time.day.offset(today, 8);
-	deadline.setHours(9);
+	var deadline = d3.time.day.(new Date);
+	deadline.setDate(31,9,0);
 
 	(function tick() {
 	  var now = new Date;
