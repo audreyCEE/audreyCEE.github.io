@@ -11,3 +11,8 @@ img {
 img.img-circle {
     border-radius: 50%;
 }
+
+iframe {
+	background-color: #777;
+	display:block;
+}
