@@ -5,6 +5,11 @@ P.placeholder{
 img {
 	width: 50%;
 	height: 50%;
+}
+
+img.important {
+	width: 100%;
+	height: 100%;
 
 }
 
