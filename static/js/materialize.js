@@ -4543,6 +4543,17 @@ $(document).ready(function(){
   };
 
 
+// PORTION ADDED today
+    $('.flip').click(function(){
+        $(this).find('.card').addClass('flipped').mouseleave(function(){
+            $(this).removeClass('flipped');
+        });
+        return false;
+    });
+//PORTION ADDED today
+	
+	$(".button-collapse").sideNav();
+
   $(document).ready(function() {
     // Hardcoded .staggered-list scrollFire
     // var staggeredListOptions = [];
