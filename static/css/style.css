@@ -15,4 +15,5 @@ img.img-circle {
 iframe {
 	background-color: #777;
 	display:block;
+    margin: auto;
 }

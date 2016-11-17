@@ -4559,6 +4559,8 @@ $(document).ready(function(){
 
     // HammerJS, Swipe navigation
 
+  	$(".button-collapse").sideNav();
+
     // Touch Event
     var swipeLeft = false;
     var swipeRight = false;
@@ -7318,7 +7320,9 @@ Picker.extend( 'pickadate', DatePicker )
   }
 
   $(document).ready(function(){
+
     $('input, textarea').characterCounter();
+
   });
 
 }( jQuery ));
