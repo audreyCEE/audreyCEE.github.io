@@ -35,7 +35,7 @@ iframe {
    width: 250px;
    height: 180px;
     position: relative;
-    margin: 50px auto;
+    margin: 5px auto;
 }
 .flip .card.flipped {
   -webkit-transform: rotatex(-180deg);
@@ -70,4 +70,8 @@ iframe {
     background: white;
     color: black;
     cursor: pointer;
+}
+
+td.special {
+	height: 250px;
 }
