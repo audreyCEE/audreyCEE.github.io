@@ -53,9 +53,9 @@ iframe {
   -webkit-backface-visibility: hidden ;
   z-index: 2;
     font-family: Georgia;
-    font-size: 1em;
+    font-size: 0.5em;
     text-align: center;
-    line-height: 200px;
+    line-height: 100%;
 }
 .flip .card .front {
   position: absolute;
