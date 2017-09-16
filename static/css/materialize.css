@@ -3304,6 +3304,12 @@ nav ul a span.badge {
   text-align: center;
 }
 
+
+.center-justify {
+  text-align: justify;
+}
+
+
 .left {
   float: left !important;
 }
@@ -3830,6 +3836,7 @@ input[type=range] + .thumb {
     margin-left: auto;
     left: auto;
     right: auto;
+
   }
   .row .col.l2 {
     width: 16.6666666667%;
@@ -4294,6 +4301,21 @@ h3 {
   line-height: 110%;
   margin: 1.46rem 0 1.168rem 0;
 }
+
+.grow:hover
+{
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+}
+.color:hover
+{
+        background:#53a7ea;
+}
+
+
+
+
 
 h4 {
   font-size: 2.28rem;
