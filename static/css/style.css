@@ -55,22 +55,28 @@ iframe {
     font-family: Georgia;
     font-size: 0.9em;
     text-align: center;
-    line-height: 200px;
+    line-height: 150px;
 }
 .flip .card .front {
   position: absolute;
-  z-index: 1;
     background: black;
     color: white;
     cursor: pointer;
+    font-size: 1.5em;
+    font-family: Georgia;
+    text-align: center;
+    line-height: 1;
 }
 .flip .card .back {
   -webkit-transform: rotatex(-180deg);
-    background: blue;
+    text-align: justify;
     background: white;
     color: black;
     cursor: pointer;
+    line-height:1;
+
 }
+
 
 td.special {
 	height: 250px;
