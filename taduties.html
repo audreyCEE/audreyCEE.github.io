@@ -18,6 +18,11 @@
 			<!--Import d3-->
 			<script type="text/javascript" src="d3/d3.v2.js"></script>
 
+			  <script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
+
 			<!-- CSS style-->
 			<link rel="stylesheet" type="text/css" href="static/css/style.css">
 
@@ -61,7 +66,8 @@
 				</div>
 
 
-				<div class = "row lime accent-2 center-align"> /!\ WARNING: This page is in construction. </div> <!--placeholder -->
+				<div class = "row lime accent-2 center-align"> /!\ WARNING: This page is in construction. 
+				  </div> <!--placeholder -->
 
 
 				<div class = "row"> 
@@ -70,19 +76,60 @@
 
 					<ul class="collapsible popout" data-collapsible="accordion">
 				    <li>
-				      <div class="collapsible-header"><i class="material-icons">filter_drama</i>Scheduling and Float</div>
-				      <div class="collapsible-body"><span>Section to write.</span></div>
+				      <div class="collapsible-header"><i class="material-icons">today</i>Scheduling and Float</div>
+				      <div class="collapsible-body"><span> <p> Section to write. </p></span></div>
 				    </li>
+
+
 				    <li>
-				      <div class="collapsible-header"><i class="material-icons">place</i>Depreciation</div>
-				      <div class="collapsible-body"><span> Section to write. </span></div>
+				      <div class="collapsible-header"><i class="material-icons">show_chart</i>Inflation</div>
+				      <div class="collapsible-body"> 
+				      	<p>Inflation reflects change in cost over time of a ‘basket’ of goods.
+				      	$$i_{e} =i + f + i*f$$
+				      	\(i\) is the increase in buying power that you want <br>
+				      	\(f\) is the inflation <br>
+				      	\(i_{e}\) is the interest rate that the bank must give (or the raise that you employer must give you) for you to have your desired i <br>
+				      </p>
+
+
+
+				      </div>
 				    </li>
+
+
+				    <li>
+				      <div class="collapsible-header"><i class="material-icons">trending_down</i>Depreciation</div>
+				      <div class="collapsible-body"><p> Depreciation is a noncash expense; depreciation allowance is not a real cashflow. <br>
+					  <br>
+					   Conditions for depreciation on asset:<br>
+
+					<i class="tiny material-icons">radio_button_checked </i> Is used to produce income<br>
+					<i class="tiny material-icons">radio_button_checked </i> Has a determinable life greater than 1 year<br>
+					<i class="tiny material-icons">radio_button_checked </i> Decays, wears out, etc.<br>
+
+
+				      </p></div>
+				    </li>
+
+				    <li>
+				      <div class="collapsible-header"><i class="material-icons">thumbs_up_down</i>Benefit/Cost (B/C) Analysis</div>
+				      <div class="collapsible-body"><span> <p> Conventional B/C: $${B \over C} =  {B \over CR+O+M}$$ <br>
+				      Modified B/C: <br>
+				      $$ {B \over C} = {B - (O+M) \over CR}$$ 
+				      <i class="material-icons">warning</i> Draw cashflows accordingly depending on the B/C method used. </p>
+				  </span>
+				</div>
+
+				    </li>
+
 
 				  </ul>
+				<div class = "row"> 
 
+				</div>
 
 				<div class = "row"> 
-					<h5 class="align-center">Vocabulary</h5>
+					<h5 class="align-center">Glossary</h5>
 				</div>
 
 			</div> <!-- container 1-->
@@ -91,9 +138,9 @@
 				<table>
 		        <thead>
 		          <tr>
+		              <th data-field="decisiontrees">General </th>
 		              <th data-field="engecon.">Eng. Econ.</th>
 		              <th data-field="contracting"> Contracting </th>
-		              <th data-field="decisiontrees">Decision Trees </th>
 		              <th data-field="orgproject">Project Organization</th>
 		              <th data-field="planning">Planning</th>
 		              <th data-field="projcontrol">Project Control</th>
@@ -103,9 +150,9 @@
 
 		        <tbody>
 		          <tr>
+		            <td class="blue lighten-3"></td>
 		            <td class="red lighten-3"></td>
 		            <td class="deep-purple lighten-3"></td>
-		            <td class="blue lighten-3"></td>
 		            <td class="green lighten-3"></td>
 		            <td class="yellow lighten-3"></td>
 		            <td class="brown lighten-3"></td>
@@ -914,12 +961,11 @@ A way to allocate the decreasing cost of a tangible asset over the course of its
       						<div class="flip"> 
 										<div class="card"> 
 											<div class="face front"> 
-												<p> </p>
+												<p> Detailed (construction) estimate</p>
 											</div> 
 											<div class="face back">
 												<div class="card-content">
-												 	<p> 
-
+												 	<p> An estimate of the specific amounts of labor, equipment and materials that will be needed for each element of a project such as earthwork, concrete, masonry, etc. For example, to construct the vertical superstructure of a new classroom building, a contractor will provide a detailed estimate essentially indicating the cost that it will take to construct the proposed plans, with consideration of the contractor’s overhead and profit.  
 												 	</p>
 										</div>
 										</div> 
@@ -932,31 +978,11 @@ A way to allocate the decreasing cost of a tangible asset over the course of its
       						<div class="flip"> 
 										<div class="card"> 
 											<div class="face front"> 
-												<p> </p>
+												<p>Differing site conditions (clause in a contract) </p>
 											</div> 
 											<div class="face back">
 												<div class="card-content">
-												 	<p> 
-
-												 	</p>
-										</div>
-										</div> 
-									</div> 
-							</div> <!-- flip -->
-						</div> <!--end of col -->
-
-
-
-      				<div class="col s12 m4">									
-      						<div class="flip"> 
-										<div class="card"> 
-											<div class="face front"> 
-												<p> </p>
-											</div> 
-											<div class="face back">
-												<div class="card-content">
-												 	<p> 
-
+												 	<p> A clause describing how the contract will address any physical site condition found during contract performance that materially differs from those indicated in the contract documents or from conditions normally encountered in the type of work of the contract. An example of this is if the site has hard rock and the owner’s documents indicated that it had soft soil.
 												 	</p>
 										</div>
 										</div> 
@@ -970,11 +996,97 @@ A way to allocate the decreasing cost of a tangible asset over the course of its
       						<div class="flip"> 
 										<div class="card"> 
 											<div class="face front"> 
-												<p> </p>
+												<p> Direct cost</p>
 											</div> 
 											<div class="face back">
 												<div class="card-content">
-												 	<p> 
+												 	<p> The cost of materials, labor, and expenses related to the production of a product that the producers charge directly to that product. Other costs, such as depreciation or administrative expenses, are more difficult to assign to a specific product, and therefore are considered indirect costs.
+												 	</p>
+										</div>
+										</div> 
+									</div> 
+							</div> <!-- flip -->
+						</div> <!--end of col -->
+
+
+
+      				<div class="col s12 m4">									
+      						<div class="flip"> 
+										<div class="card"> 
+											<div class="face front"> 
+												<p>Disbursement </p>
+											</div> 
+											<div class="face back">
+												<div class="card-content">
+												 	<p> A payment of money. Disburse has the same orgin as the word "purse". To disburse is to remove from the purse. In a contract, payment of compensation to a contractor for its services, usually done on a monthly basis.
+												 	</p>
+										</div>
+										</div> 
+									</div> 
+							</div> <!-- flip -->
+						</div> <!--end of col -->
+
+      				<div class="col s12 m4">									
+      						<div class="flip"> 
+										<div class="card"> 
+											<div class="face front"> 
+												<p>Discount rate</p>
+											</div> 
+											<div class="face back">
+												<div class="card-content">
+												 	<p> A discount rate is a percentage deduction in the value of money over a period of time. It is a way to calculate the future value by translating it to an equivalent amount today. Example: If I have a US treasury bill that will pay $100 one year from now and my discount rate is 10%, then I would be willing to sell that treasury bill today for $90. 
+												 	</p>
+										</div>
+										</div> 
+									</div> 
+							</div> <!-- flip -->
+						</div> <!--end of col -->
+
+
+
+      				<div class="col s12 m4">									
+      						<div class="flip"> 
+										<div class="card"> 
+											<div class="face front"> 
+												<p>Discounted cash flow</p>
+											</div> 
+											<div class="face back">
+												<div class="card-content">
+												 	<p> The present value of a future flow of cash. Example: If I have an investment that will pay $100 one year from now and my discount rate is 10%, then I would be willing to sell that investment today for $90. 
+												 	</p>
+										</div>
+										</div> 
+									</div> 
+							</div> <!-- flip -->
+						</div> <!--end of col -->
+
+
+
+      				<div class="col s12 m4">									
+      						<div class="flip"> 
+										<div class="card"> 
+											<div class="face front"> 
+												<p>Discounting </p>
+											</div> 
+											<div class="face back">
+												<div class="card-content">
+												 	<p> A valuation method which reduces the face value attractiveness of an investment opportunity by recalculating future cash flows using a discount rate in terms of present value estimates. E.G: discounting using interest rate when calculating PV of cash flows. 
+												 	</p>
+										</div>
+										</div> 
+									</div> 
+							</div> <!-- flip -->
+						</div> <!--end of col -->
+
+      				<div class="col s12 m4">									
+      						<div class="flip"> 
+										<div class="card"> 
+											<div class="face front"> 
+												<p>Effective interest rate </p>
+											</div> 
+											<div class="face back">
+												<div class="card-content">
+												 	<p> The conversion of periodic interest payments to an annualized interest rate.  for example, If I I have a 12% nominal interest rate compounded quarterly, my actual periodic interst is 12/4 = 3% and my effective interest rate is (1.03^4 - 1) =  12.55%. If the compounding is monthly my actual periodic interst is 12/412= 1% and my effective interest rate is (1.01^12 - 1) =  12.68%. 
 
 												 	</p>
 										</div>
@@ -984,8 +1096,657 @@ A way to allocate the decreasing cost of a tangible asset over the course of its
 						</div> <!--end of col -->
 
 
+      				<div class="col s12 m4">									
+      						<div class="flip"> 
+										<div class="card"> 
+											<div class="face front"> 
+												<p>Equivalent annual worth</p>
+											</div> 
+											<div class="face back">
+												<div class="card-content">
+												 	<p> Using many of the same concepts, parameters, and equations that govern the calculation of net present value (NPV), the equivalent annual worth takes a sum of a number of cash flows over time and, using the interest rate parameter i and the number of periods n, calculates what this sum of cash flows would amount to on a repeated yearly basis, taking into account the time-value of money.
+
+												 	</p>
+										</div>
+										</div> 
+									</div> 
+							</div> <!-- flip -->
+						</div> <!--end of col -->
+
+
+
+
+      				<div class="col s12 m4">									
+      						<div class="flip"> 
+										<div class="card"> 
+											<div class="face front"> 
+												<p> Escalation provision</p>
+											</div> 
+											<div class="face back">
+												<div class="card-content">
+												 	<p> "A provision that addresses how the contract will manage inflation of other changes in the market or economy. For example, a contractor is about to enter into a contract to construction 100-miles of railroad in which the project is anticipated to take 5 years. Considering the contractors costs may be subject to market escalation, the contractor may include this anticipated cost in the original bid. Alternately, the owner may include an escalation provision to relieve the contractor of the additional costs due to escalation, if escalation were to occur. Such a provision would shift the risk from the contractor to the owner."
+												 	</p>
+										</div>
+										</div> 
+									</div> 
+							</div> <!-- flip -->
+						</div> <!--end of col -->
+
+      				<div class="col s12 m4">									
+      						<div class="flip"> 
+										<div class="card"> 
+											<div class="face front"> 
+												<p>Estimating</p>
+											</div> 
+											<div class="face back">
+												<div class="card-content">
+												 	<p> The general definition of estimating is to approximate or roughly calculate the value of something. In this class, the term 'estimating' would be used on almost every engineering project possible. For example, in construction, there are design, bid, and control estimates. Design estimates cover detailed estimates regarding the project from the engineer/designer to the owner. Bid estimates are what a contractor will present to an owner (or maybe from a subcontractor to a GC) as their price for how much the project will cost including overhead and profit. Control estimates are a separate estimation that is used to track finances once a project has been contracted out. 
+												 	</p>
+										</div>
+										</div> 
+									</div> 
+							</div> <!-- flip -->
+						</div> <!--end of col -->
+
+      				<div class="col s12 m4">									
+      						<div class="flip"> 
+										<div class="card"> 
+											<div class="face front"> 
+												<p>Exculpatory clause </p>
+											</div> 
+											<div class="face back">
+												<div class="card-content">
+												 	<p> "Relieves one party from liability. It is a provision in a contract which is intended to protect one party from being sued for their wrongdoing or negligence.  For example, owners may include an exculpatory clause in relation to the contractor’s reliance on reports of physical conditions. "
+												 	</p>
+										</div>
+										</div> 
+									</div> 
+							</div> <!-- flip -->
+						</div> <!--end of col -->
+
+      				<div class="col s12 m4">									
+      						<div class="flip"> 
+										<div class="card"> 
+											<div class="face front"> 
+												<p> Expected value (EV) </p>
+											</div> 
+											<div class="face back">
+												<div class="card-content">
+												 	<p> The expected monetary value of an asset or project upon analyzing use, cost adjustments, and probability of different outcomes. For example, one might weigh the probabilities for each potential path of a project and the value or return associated with each. If a project path is to be selected with respect to expected value, the path with the highest return is selected.
+												 	</p>
+										</div>
+										</div> 
+									</div> 
+							</div> <!-- flip -->
+						</div> <!--end of col -->
+
+      				<div class="col s12 m4">									
+      						<div class="flip"> 
+										<div class="card"> 
+											<div class="face front"> 
+												<p> Face value </p>
+											</div> 
+											<div class="face back">
+												<div class="card-content">
+												 	<p> A face value, when referrring to bonds, is the final amount paid when the bond matures. For example, a bond might pay a $100 coupon each month for twn years and then pay a lump-sum face value of $50,000 at the end of the ten years.
+												 	</p>
+										</div>
+										</div> 
+									</div> 
+							</div> <!-- flip -->
+						</div> <!--end of col -->
+
+      				<div class="col s12 m4">									
+      						<div class="flip"> 
+										<div class="card"> 
+											<div class="face front"> 
+												<p> Fast-track project </p>
+											</div> 
+											<div class="face back">
+												<div class="card-content">
+												 	<p> This type of construction is one in which the construction phase is begun with only limited design work completed. An example of how this works is for site grading and structure excavation to begin before foundation design work is complete.
+
+												 	</p>
+										</div>
+										</div> 
+									</div> 
+							</div> <!-- flip -->
+						</div> <!--end of col -->
+
+      				<div class="col s12 m4">									
+      						<div class="flip"> 
+										<div class="card"> 
+											<div class="face front"> 
+												<p>Firm bid rule </p>
+											</div> 
+											<div class="face back">
+												<div class="card-content">
+												 	<p> A rule in common law that disallows a contractor to withdraw its bid once the contractor's offer has been accepted by the owner.
+												 	</p>
+										</div>
+										</div> 
+									</div> 
+							</div> <!-- flip -->
+						</div> <!--end of col -->
+
+      				<div class="col s12 m4">									
+      						<div class="flip"> 
+										<div class="card"> 
+											<div class="face front"> 
+												<p>Force majeure </p>
+											</div> 
+											<div class="face back">
+												<div class="card-content">
+												 	<p> A Force Majeure is also called "An Act of God". In a contract, it refers to an extraordinary event that is outside of the control of both parties. For example, a hurricane would be a Force Majeure. 
+												 	</p>
+										</div>
+										</div> 
+									</div> 
+							</div> <!-- flip -->
+						</div> <!--end of col -->
+
+      				<div class="col s12 m4">									
+      						<div class="flip"> 
+										<div class="card"> 
+											<div class="face front"> 
+												<p> Functional organization</p>
+											</div> 
+											<div class="face back">
+												<div class="card-content">
+												 	<p> Functional organizations are structured in highly specialized groups that report to a single authority. An example of how these are divided is that they have functional groups that include engineering, marketing and development.
+
+												 	</p>
+										</div>
+										</div> 
+									</div> 
+							</div> <!-- flip -->
+						</div> <!--end of col -->
+
+      				<div class="col s12 m4">									
+      						<div class="flip"> 
+										<div class="card"> 
+											<div class="face front"> 
+												<p>General and administrative expenses (G A) </p>
+											</div> 
+											<div class="face back">
+												<div class="card-content">
+												 	<p> These are expenses that are required to administer the business practice. For example, companies typically have accounting. payroll, human resources, and other costs that are are essential for them to function.	</p>
+										</div>
+										</div> 
+									</div> 
+							</div> <!-- flip -->
+						</div> <!--end of col -->
+
+      				<div class="col s12 m4">									
+      						<div class="flip"> 
+										<div class="card"> 
+											<div class="face front"> 
+												<p>General conditions (or general provisions) of a contract
+ </p>
+											</div> 
+											<div class="face back">
+												<div class="card-content">
+												 	<p> Standards clauses in a contract that are used in all of an organization's contracts, or all contracts of a particular type. For example, many of these standard clauses in federal contracts pertain to the requirements of the Federal Acquisition Regulations, which by law must be included in every federal construction contract. 
+
+												 	</p>
+										</div>
+										</div> 
+									</div> 
+							</div> <!-- flip -->
+						</div> <!--end of col -->
+
+
+      				<div class="col s12 m4">									
+      						<div class="flip"> 
+										<div class="card"> 
+											<div class="face front"> 
+												<p> Grievance procedure</p>
+											</div> 
+											<div class="face back">
+												<div class="card-content">
+												 	<p> A grievance procedure defines how a dispute is settled between a contractor and union in the event of a disagreement. It defines exactly which steps to be taken at each step of the resolution. If an agreement cannot be reached between the two parties on their own, an arbitrator can be hired to help.
+
+												 	</p>
+										</div>
+										</div> 
+									</div> 
+							</div> <!-- flip -->
+						</div> <!--end of col -->
+
+      				<div class="col s12 m4">									
+      						<div class="flip"> 
+										<div class="card"> 
+											<div class="face front"> 
+												<p> Gross revenue </p>
+											</div> 
+											<div class="face back">
+												<div class="card-content">
+												 	<p> Total revenue received before any deductions or allowances, as for rent, cost of goods sold, taxes, etc. It refers the the raw sales income that is received from the customers.
+
+												 	</p>
+										</div>
+										</div> 
+									</div> 
+							</div> <!-- flip -->
+						</div> <!--end of col -->
+
+      				<div class="col s12 m4">									
+      						<div class="flip"> 
+										<div class="card"> 
+											<div class="face front"> 
+												<p>Guaranteed Maximum Price contract (GMP)
+ </p>
+											</div> 
+											<div class="face back">
+												<div class="card-content">
+												 	<p> A GMP contract stipulates that the contractor will not be reimbursed for more than an agreed maximum price. The CM is paid their costs and profit in a method described in their contract up to the GMP. If the actual cost exceeds the GMP, the CM receives no payments in excess of the GMP.
+
+												 	</p>
+										</div>
+										</div> 
+									</div> 
+							</div> <!-- flip -->
+						</div> <!--end of col -->
+
+      				<div class="col s12 m4">									
+      						<div class="flip"> 
+										<div class="card"> 
+											<div class="face front"> 
+												<p> Heavy (civil) construction 
+</p>
+											</div> 
+											<div class="face back">
+												<div class="card-content">
+												 	<p> Heavy civil is a subset of the field of engineering which includes the construction of major infrastructure projects such as highways, dams, and pipelines. Heavy civil projects are unlikes most building projects into that they are publicly funded and thus owned by the United States of America. 
+
+												 	</p>
+										</div>
+										</div> 
+									</div> 
+							</div> <!-- flip -->
+						</div> <!--end of col -->
+
+      				<div class="col s12 m4">									
+      						<div class="flip"> 
+										<div class="card"> 
+											<div class="face front"> 
+												<p> Hiring Hall (union labor)
+</p>
+											</div> 
+											<div class="face back">
+												<div class="card-content">
+												 	<p> A physical place, or online site, where union workers can wait for job openings that come up in construction projects where contractors have need for extra workers, which is expressed by the contractor contacting the union hall requesting referral for a specific amount of specialized union workers for a short duration of time.
+
+												 	</p>
+										</div>
+										</div> 
+									</div> 
+							</div> <!-- flip -->
+						</div> <!--end of col -->
+
+      				<div class="col s12 m4">									
+      						<div class="flip"> 
+										<div class="card"> 
+											<div class="face front"> 
+												<p> Hiring hall provision
+</p>
+											</div> 
+											<div class="face back">
+												<div class="card-content">
+												 	<p> A hiring hall provision dictates who a contractor can hire. A common provision requires that a contractor exclusively hires from that union. 
+
+												 	</p>
+										</div>
+										</div> 
+									</div> 
+							</div> <!-- flip -->
+						</div> <!--end of col -->
+
+      				<div class="col s12 m4">									
+      						<div class="flip"> 
+										<div class="card"> 
+											<div class="face front"> 
+												<p>Hours worked vs Hours paid
+ </p>
+											</div> 
+											<div class="face back">
+												<div class="card-content">
+												 	<p> Hours worked refers to the number of hours that a person worked. Hours paid is the number of hours for which they were paid. The difference results from overtime  - Two hours of overtime worked at time-and-a-half would result in three hours paid.
+
+												 	</p>
+										</div>
+										</div> 
+									</div> 
+							</div> <!-- flip -->
+						</div> <!--end of col -->
+
+      				<div class="col s12 m4">									
+      						<div class="flip"> 
+										<div class="card"> 
+											<div class="face front red lighten-3"> 
+												<p> In perpetuity
+</p>
+											</div> 
+											<div class="face back">
+												<div class="card-content">
+												 	<p> In perpetuity means "without end". It is normally used to address something for which there is no foreseeable end. An example is when someone leaves land to the City for a public park with a provision that no buildings shall be built on that land in perpetuity.
+
+												 	</p>
+										</div>
+										</div> 
+									</div> 
+							</div> <!-- flip -->
+						</div> <!--end of col -->
+
+      				<div class="col s12 m4">									
+      						<div class="flip"> 
+										<div class="card"> 
+											<div class="face front red lighten-3"> 
+												<p>Indirect cost (overhead)
+ </p>
+											</div> 
+											<div class="face back">
+												<div class="card-content">
+												 	<p> Indirect costs are expenses that are not directly related to the project costs.  For example, in a construction project, indirect costs include scaffolding, site supervision, field office costs, safety costs, etc, while excluding main project costs such as material, labor, and equipment costs.
+
+												 	</p>
+										</div>
+										</div> 
+									</div> 
+							</div> <!-- flip -->
+						</div> <!--end of col -->
+
+      				<div class="col s12 m4">									
+      						<div class="flip"> 
+										<div class="card"> 
+											<div class="face front"> 
+												<p> </p>
+											</div> 
+											<div class="face back">
+												<div class="card-content">
+												 	<p> 
+												 	</p>
+										</div>
+										</div> 
+									</div> 
+							</div> <!-- flip -->
+						</div> <!--end of col -->
+
+      				<div class="col s12 m4">									
+      						<div class="flip"> 
+										<div class="card"> 
+											<div class="face front"> 
+												<p> </p>
+											</div> 
+											<div class="face back">
+												<div class="card-content">
+												 	<p> 
+												 	</p>
+										</div>
+										</div> 
+									</div> 
+							</div> <!-- flip -->
+						</div> <!--end of col -->
+
+      				<div class="col s12 m4">									
+      						<div class="flip"> 
+										<div class="card"> 
+											<div class="face front"> 
+												<p> </p>
+											</div> 
+											<div class="face back">
+												<div class="card-content">
+												 	<p> 
+												 	</p>
+										</div>
+										</div> 
+									</div> 
+							</div> <!-- flip -->
+						</div> <!--end of col -->
+
+      				<div class="col s12 m4">									
+      						<div class="flip"> 
+										<div class="card"> 
+											<div class="face front"> 
+												<p> </p>
+											</div> 
+											<div class="face back">
+												<div class="card-content">
+												 	<p> 
+												 	</p>
+										</div>
+										</div> 
+									</div> 
+							</div> <!-- flip -->
+						</div> <!--end of col -->
+
+      				<div class="col s12 m4">									
+      						<div class="flip"> 
+										<div class="card"> 
+											<div class="face front"> 
+												<p> </p>
+											</div> 
+											<div class="face back">
+												<div class="card-content">
+												 	<p> 
+												 	</p>
+										</div>
+										</div> 
+									</div> 
+							</div> <!-- flip -->
+						</div> <!--end of col -->
+
+      				<div class="col s12 m4">									
+      						<div class="flip"> 
+										<div class="card"> 
+											<div class="face front"> 
+												<p> </p>
+											</div> 
+											<div class="face back">
+												<div class="card-content">
+												 	<p> 
+												 	</p>
+										</div>
+										</div> 
+									</div> 
+							</div> <!-- flip -->
+						</div> <!--end of col -->
+
+      				<div class="col s12 m4">									
+      						<div class="flip"> 
+										<div class="card"> 
+											<div class="face front"> 
+												<p> </p>
+											</div> 
+											<div class="face back">
+												<div class="card-content">
+												 	<p> 
+												 	</p>
+										</div>
+										</div> 
+									</div> 
+							</div> <!-- flip -->
+						</div> <!--end of col -->
+
+      				<div class="col s12 m4">									
+      						<div class="flip"> 
+										<div class="card"> 
+											<div class="face front"> 
+												<p> </p>
+											</div> 
+											<div class="face back">
+												<div class="card-content">
+												 	<p> 
+												 	</p>
+										</div>
+										</div> 
+									</div> 
+							</div> <!-- flip -->
+						</div> <!--end of col -->
+
+      				<div class="col s12 m4">									
+      						<div class="flip"> 
+										<div class="card"> 
+											<div class="face front"> 
+												<p> </p>
+											</div> 
+											<div class="face back">
+												<div class="card-content">
+												 	<p> 
+												 	</p>
+										</div>
+										</div> 
+									</div> 
+							</div> <!-- flip -->
+						</div> <!--end of col -->
+
+      				<div class="col s12 m4">									
+      						<div class="flip"> 
+										<div class="card"> 
+											<div class="face front"> 
+												<p> </p>
+											</div> 
+											<div class="face back">
+												<div class="card-content">
+												 	<p> 
+												 	</p>
+										</div>
+										</div> 
+									</div> 
+							</div> <!-- flip -->
+						</div> <!--end of col -->
+
+      				<div class="col s12 m4">									
+      						<div class="flip"> 
+										<div class="card"> 
+											<div class="face front"> 
+												<p> </p>
+											</div> 
+											<div class="face back">
+												<div class="card-content">
+												 	<p> 
+												 	</p>
+										</div>
+										</div> 
+									</div> 
+							</div> <!-- flip -->
+						</div> <!--end of col -->
+
+      				<div class="col s12 m4">									
+      						<div class="flip"> 
+										<div class="card"> 
+											<div class="face front"> 
+												<p> </p>
+											</div> 
+											<div class="face back">
+												<div class="card-content">
+												 	<p> 
+												 	</p>
+										</div>
+										</div> 
+									</div> 
+							</div> <!-- flip -->
+						</div> <!--end of col -->
+
+      				<div class="col s12 m4">									
+      						<div class="flip"> 
+										<div class="card"> 
+											<div class="face front"> 
+												<p> </p>
+											</div> 
+											<div class="face back">
+												<div class="card-content">
+												 	<p> 
+												 	</p>
+										</div>
+										</div> 
+									</div> 
+							</div> <!-- flip -->
+						</div> <!--end of col -->
+
+      				<div class="col s12 m4">									
+      						<div class="flip"> 
+										<div class="card"> 
+											<div class="face front"> 
+												<p> </p>
+											</div> 
+											<div class="face back">
+												<div class="card-content">
+												 	<p> 
+												 	</p>
+										</div>
+										</div> 
+									</div> 
+							</div> <!-- flip -->
+						</div> <!--end of col -->
+
+      				<div class="col s12 m4">									
+      						<div class="flip"> 
+										<div class="card"> 
+											<div class="face front"> 
+												<p> </p>
+											</div> 
+											<div class="face back">
+												<div class="card-content">
+												 	<p> 
+												 	</p>
+										</div>
+										</div> 
+									</div> 
+							</div> <!-- flip -->
+						</div> <!--end of col -->
+
+      				<div class="col s12 m4">									
+      						<div class="flip"> 
+										<div class="card"> 
+											<div class="face front"> 
+												<p> </p>
+											</div> 
+											<div class="face back">
+												<div class="card-content">
+												 	<p> 
+												 	</p>
+										</div>
+										</div> 
+									</div> 
+							</div> <!-- flip -->
+						</div> <!--end of col -->
+
+      				<div class="col s12 m4">									
+      						<div class="flip"> 
+										<div class="card"> 
+											<div class="face front"> 
+												<p> </p>
+											</div> 
+											<div class="face back">
+												<div class="card-content">
+												 	<p> 
+												 	</p>
+										</div>
+										</div> 
+									</div> 
+							</div> <!-- flip -->
+						</div> <!--end of col -->
+
+      				<div class="col s12 m4">									
+      						<div class="flip"> 
+										<div class="card"> 
+											<div class="face front"> 
+												<p> </p>
+											</div> 
+											<div class="face back">
+												<div class="card-content">
+												 	<p> 
+												 	</p>
+										</div>
+										</div> 
+									</div> 
+							</div> <!-- flip -->
+						</div> <!--end of col -->
+
+
+					</div>
 				</div>
-			</div>
 
 			<div class = "container">
 
