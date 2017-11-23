@@ -75,10 +75,7 @@
 				</div>
 
 					<ul class="collapsible popout" data-collapsible="accordion">
-				    <li>
-				      <div class="collapsible-header"><i class="material-icons">today</i>Scheduling and Float</div>
-				      <div class="collapsible-body"><span> <p> Section to write. </p></span></div>
-				    </li>
+
 
 
 				    <li>
@@ -120,8 +117,10 @@
 
 						        <tbody>
 						          <tr>
-						            <td colspan="3">General</td>
-						            <td colspan="2">MARCS</td>
+						            <td colspan="3"><h5> General <br> <br></h5></td>
+						            <td colspan="2"><h5>MARCS </h5>
+						            	Must set salvage value \(S = 0\) when calculating depreciation. <br>
+						            	Half year convention -> extend table for N + 1 year.</td>
 						            </td>
 						          </tr>
 						          <tr>
@@ -133,9 +132,37 @@
 						            (finished with straight-line)</td>
 						          </tr>
 						          <tr>
-						            <td>Jonathan</td>
-						            <td>Lollipop</td>
-						            <td>$7.00</td>
+						            <td> $$ DC_j = (P-S) * { (N-j+1) \over (1+2+N) }$$</td>
+						            <td> Same depreciation every year 
+						            	$$ DC = { P-S \over N}$$</td>
+						            <td> (Special case: double declining balance) 
+						            	$$ DC_i = BV_{i-1} * {1 \over N} $$ 
+						                or 
+						                $$ DC_i = BV_{i-1} * {1.5 \over N} $$ 
+						                For DDB:
+						                $$ DC_i = BV_{i-1} * {2 \over N} $$ </td>
+						            <td> For year \( 1\): 
+						            	$$ DC_1 = {P-S \over N} * 0.5 $$
+						            	For year \( 2 \le i \le N\):
+						            	$$ DC_i = {P-S \over N}$$
+						            	For year \( N+1\):
+						            	$$ DC_{N+1} = {P-S \over N} * 0.5$$
+
+						            </td>
+						            <td>
+						            	For year 1:
+						            	$$DC_{1} = BV_{0}* {2 \over N} *0.5 $$
+						            	To compare with:
+						            	$$ DC_1 = {BV_{0} \over N+0.5}$$
+						            	For year 2:
+						            	$$DC_{2} = BV_{1}* {2 \over N} $$
+						            	To compare with:
+						            	$$ DC_2 = {BV_{1} \over N -1 +0.5}$$
+						            	ETC
+
+
+
+						            </td>
 						          </tr>
 						        </tbody>
 						      </table>
@@ -153,7 +180,10 @@
 				</div>
 
 				    </li>
-
+				    <li>
+				      <div class="collapsible-header"><i class="material-icons">today</i>Scheduling and Float</div>
+				      <div class="collapsible-body"><span> <p> Section to write. </p></span></div>
+				    </li>
 
 				  </ul>
 				<div class = "row"> 
