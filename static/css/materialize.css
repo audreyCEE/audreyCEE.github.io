@@ -2342,6 +2342,7 @@ pre {
   overflow: auto;
 }
 
+
 /**
  * Address odd `em`-unit font size rendering in all browsers.
  */
@@ -3340,7 +3341,7 @@ input[type=range] + .thumb {
 .truncate {
   display: block;
   white-space: nowrap;
-  overflow: hidden;
+  overflow: auto;
   text-overflow: ellipsis;
 }
 
@@ -4522,7 +4523,7 @@ small {
 
 .card.small .card-image, .card.medium .card-image, .card.large .card-image {
   max-height: 60%;
-  overflow: hidden;
+  overflow: auto;
 }
 
 .card.small .card-image + .card-content, .card.medium .card-image + .card-content, .card.large .card-image + .card-content {
@@ -4531,7 +4532,7 @@ small {
 
 .card.small .card-content, .card.medium .card-content, .card.large .card-content {
   max-height: 100%;
-  overflow: hidden;
+  overflow: auto;
 }
 
 .card.small .card-action, .card.medium .card-action, .card.large .card-action {
@@ -4562,7 +4563,7 @@ small {
 .card.horizontal.small .card-image, .card.horizontal.medium .card-image, .card.horizontal.large .card-image {
   height: 100%;
   max-height: none;
-  overflow: visible;
+  overflow: auto;
 }
 
 .card.horizontal.small .card-image img, .card.horizontal.medium .card-image img, .card.horizontal.large .card-image img {
@@ -4655,7 +4656,7 @@ small {
   position: absolute;
   background-color: #fff;
   width: 100%;
-  overflow-y: auto;
+  overflow: auto;
   left: 0;
   top: 100%;
   height: 100%;
