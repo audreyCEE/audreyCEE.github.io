@@ -68,9 +68,9 @@ iframe {
     line-height: 1;
 }
 .flip .card .back {
-  -webkit-transform: rotatex(-180deg);
+  -webkit-transform: rotatex(180deg);
     overflow: auto;
-    max-height: 80%;
+    max-height: 90%;
     text-align: justify;
     background: white;
     color: black;
